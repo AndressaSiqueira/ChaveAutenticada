@@ -1,0 +1,52 @@
+{
+    "name": "portal-testes",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "bootstrap": "^4.6.0",
+        "cors": "^2.8.5",
+        "datatables": "^1.10.18",
+        "dotenv": "^16.0.1",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "jquery": "^3.5.1",
+        "oracledb": "^4.2.0",
+        "patch-package": "^6.4.7",
+        "socket.io": "^4.5.0",
+        "socket.io-client": "^4.5.0",
+        "swagger-ui-express": "^4.2.0",
+        "universal-cookie": "^4.0.4",
+        "url": "^0.11.0",
+        "oci-objectstorage": "^2.48.1"
+    },
+    "scripts": {
+        "build": "react-scripts build",
+        "test": "jest",
+        "eject": "react-scripts eject",
+        "prod": "serve -s build -l 3000",
+        "swagger-autogen": "node backend/src/swagger.js",
+        "dev": "node backend/src/server.js"
+    },
+    "author": "",
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3",
+        "pino-pretty": "^7.6.1",
+        "supertest": "^6.1.3",
+        "swagger-autogen": "^2.15.0",
+        "webpack": "^5.72.0",
+        "yarn": "^1.22.10"
+    }
+}
