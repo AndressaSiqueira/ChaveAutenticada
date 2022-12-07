@@ -1,0 +1,16 @@
+{
+  "name": "noderest",
+  "version": "1.0.0",
+  "description": "hellonode",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "oci-sdk": "^2.45.0"
+  }
+}
